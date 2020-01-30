@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "CVS signin test scenario",
+        "description": "",
+        "id": "cvs-signin-feature;cvs-signin-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is already on Home page",
+            "match": {
+              "location": "SignInStepDefinition.user_is_already_on_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "title of  signin page",
+            "match": {
+              "location": "SignInStepDefinition.title_of_signin_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user click on signin link",
+            "match": {
+              "location": "SignInStepDefinition.user_click_on_signin_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "SignInStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user click on signin button",
+            "match": {
+              "location": "SignInStepDefinition.user_click_on_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user is successfully signed in",
+            "match": {
+              "location": "SignInStepDefinition.user_is_successfully_signed_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "SignInStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CVS Signin feature",
+    "description": "",
+    "id": "cvs-signin-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/JavaLearner/Desktop/CvsPharmacyProject/CvsBDDFramework/src/main/java/Features/signin.feature"
+  }
+]
